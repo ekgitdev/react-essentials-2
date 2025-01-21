@@ -1,7 +1,10 @@
-export default function Tabs({ children, buttons }) {
+export default function Tabs({ children, buttons, ButtonsContainer }) {
+    /** assigns either custom component or built in element to constant*/
+    //const ButtonContainer = buttonsContainer;
+
   return (
     <>
-      <menu>{buttons}</menu>
+      <ButtonsContainer>{buttons}</ButtonsContainer>
       {children}
     </>
   );

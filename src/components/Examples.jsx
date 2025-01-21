@@ -22,10 +22,11 @@ const Examples = () => {
     </pre>
   </div>
   } 
-  
+
   return (
     <Section title="Examples" id="examples">
       <Tabs
+        ButtonsContainer="menu"
         buttons={
           <>
             <TabButton
